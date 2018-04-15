@@ -1,0 +1,29 @@
+{
+  "name": "salad-randomizer",
+  "version": "1.0.0",
+  "description": "An app that randomizes salad ingredients",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiouxsieAsylum/salad-randomizer.git"
+  },
+  "author": "Andrea McKenzie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiouxsieAsylum/salad-randomizer/issues"
+  },
+  "homepage": "https://github.com/SiouxsieAsylum/salad-randomizer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "create-react-app": "^1.5.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "psql": "0.0.1"
+  }
+}
